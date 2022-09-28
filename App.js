@@ -3,8 +3,8 @@ import React from 'react';
 
 const App = () => {
   return (
-    <View>
-      <Text styles="container">App</Text>
+    <View styles="container">
+      <Text>App</Text>
     </View>
   );
 };
