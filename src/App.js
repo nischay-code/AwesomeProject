@@ -81,8 +81,8 @@ const Navigation = () => {
               options={({route}) => ({
                 title: (
                   <View>
-                    <Text>{route.params.name}</Text>
-                    <Text>{route.params.status}</Text>
+                    <Text style={{color: 'blue'}}>{route.params.name}</Text>
+                    <Text style={{color: 'black'}}>{route.params.status}</Text>
                   </View>
                 ),
               })}>
