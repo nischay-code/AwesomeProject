@@ -97,6 +97,7 @@ const ChatScreen = ({user, route}) => {
             <InputToolbar
               {...props}
               containerStyle={{borderTopWidth: 1, borderTopColor: '#2C6BED'}}
+              textInputStyle={{color: 'black'}}
             />
           );
         }}
